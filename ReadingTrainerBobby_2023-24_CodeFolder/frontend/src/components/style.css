@@ -1,0 +1,123 @@
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Center vertically */
+  font-size: 24px;
+  color: #333; /* Set the color of your loading text */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+
+body {
+  background-image: url('../img/pngtree-cute-cartoon-dog-wallpaper-image_595508-3280236057.jpg'); /* Adjust the path to your image */
+  background-size: auto; /* Make sure the image covers the whole background */
+  background-position: center; /* Center the image */
+  background-color: #f7f7f7;
+}
+
+
+
+::placeholder{
+  color: black;  
+}
+
+input{
+  -webkit-text-fill-color: black;
+}
+
+.items {
+    margin: 2em;
+}
+
+.box {
+    padding: 2em;
+}
+
+.ExerciseForm {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.HomePage {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.ParametersPage {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+   /* Optional: Set the height of the container */
+  }
+
+
