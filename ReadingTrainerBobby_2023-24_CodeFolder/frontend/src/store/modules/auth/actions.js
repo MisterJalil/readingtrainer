@@ -37,14 +37,14 @@ export default {
     async [LOGIN_ACTION](context, payload) {
         return context.dispatch(AUTH_ACTION, {
             ...payload,
-            url: `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA4fee1MJhsn7GFTybwPXJZkrKrP4bHJZ4`,
+            url: `GoogleApis Identity Toolkit URL`,
         });
     },
 
     async [SIGNUP_ACTION](context, payload) {
         return context.dispatch(REG_AUTH_ACTION, {
             ...payload,
-            url: `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA4fee1MJhsn7GFTybwPXJZkrKrP4bHJZ4`,
+            url: `GoogleApis Identity Toolkit URL`,
         });
     },
 
